@@ -1,16 +1,43 @@
+a {
+  text-decoration: none;
+  color : black;
+}
+
+
 .nav{
         height : 70px;
         display : flex;
         align-items: center;
-        background-color : grey;
-        color : white;
+        background-color : white;
+        color : black;
       }
 .nav-right-items{
         display: flex;
+        align-items: center;
+
       }
 .nav-item{
         margin-left : 25px;
       }
+
+.bg{
+  background-image : url("3bss_bi.jpg");
+  height : 510px;
+
+  background-position : center;
+  background-repeat : no-repeat;
+  background-size : cover;
+}
+
+.welcome{
+  position: relative;
+top: 30px;
+left : 40px;
+  color : white;
+
+}
+
+
 .main{
         width : 600px;
         margin : 0 auto;
