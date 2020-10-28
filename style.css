@@ -26,8 +26,9 @@
  font-family: 'NanumBarunGothic', sans-serif;
 }
 
-body {font-family: 'NanumBarunGothic', 'serif';}
-
+body {font-family: 'NanumBarunGothic', 'serif';
+line-height : 1.5;
+}
 
 a {
   text-decoration: none;
@@ -102,24 +103,13 @@ left : 40px;
         line-height : 53px;
         border-bottom : 1px solid black;
       }
-      .artists-item-profile{
+.artists-item-profile{
         font-size : 0.8rem;
         font-weight : 15;
         padding : 10px;
+        text-align : left;
       }
-      .artists-item-button{
-        color : grey;
-        background-color : transparent;
-        background-image : none;
-        border-color : grey;
-        margin-top : 10px;
 
-        padding : .2rem 1rem;
-        font-size : .5rem;
-        line-height : 1.5;
-        border-radius : .3rem;
-      }
-      .artists-item-button-active{
-        background-color : grey;
-        color : white;
-      }
+.gallery-items{
+  margin : auto;
+}
