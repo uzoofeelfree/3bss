@@ -1,8 +1,17 @@
+@font-face { font-family: 'NanumBarunGothic';
+src: url('/fonts/NanumBarunGothic.eot');
+src: url('/fonts/NanumBarunGothic.eot')
+format('embedded-opentype'),
+url('/fonts/NanumBarunGothic.woff')
+format('woff');
+}
+
+body {font-family: 'NanumGothic', 'serif';}
+
 a {
   text-decoration: none;
   color : black;
 }
-
 
 .nav{
         height : 70px;
@@ -14,7 +23,6 @@ a {
 .nav-right-items{
         display: flex;
         align-items: center;
-
       }
 .nav-item{
         margin-left : 25px;
