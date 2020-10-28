@@ -30,6 +30,42 @@ body {font-family: 'NanumBarunGothic', 'serif';
 line-height : 1.5;
 }
 
+footer {
+  margin-top : 100px;
+  font-family: 'NanumBarunGothic', 'serif';
+  background-color : lightgray;
+  height : 200px;
+  text-align : center;
+}
+
+
+.container {
+  margin-top : 20px;
+  width : 600px;
+  display : inline-flex;
+  text-align : left;
+}
+
+.col2 {
+  margin-left : 50px;
+}
+
+.col3{
+  margin-left : 50px;
+}
+
+.col-list{
+  font-size : 12px;
+  line-height : 2;
+  list-style : none;
+}
+
+.footer-copyright{
+  font-size : 10px;
+  text-align : center;
+  margin-bottom : 20px;
+}
+
 a {
   text-decoration: none;
   color : black;
@@ -109,6 +145,7 @@ left : 40px;
         padding : 10px;
         text-align : left;
       }
+
 .gallery-items{
   margin-left : 30px;
 }
